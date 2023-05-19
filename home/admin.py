@@ -1,6 +1,6 @@
 from django.contrib import admin 
 # Register your models here.
-from .models import Addmoney_info
+from .models import Addmoney_info 
 
 class Addmoney_infoAdmin(admin.ModelAdmin):
     list_display=("user","quantity","Date","Category","add_money")
