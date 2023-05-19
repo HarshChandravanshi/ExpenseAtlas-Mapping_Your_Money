@@ -7,5 +7,5 @@ class Addmoney_infoAdmin(admin.ModelAdmin):
 admin.site.register(Addmoney_info,Addmoney_infoAdmin)
 from django.contrib.sessions.models import Session
 admin.site.register(Session)
-from .models import UserProfile
+from .models import UserProfile 
 admin.site.register(UserProfile)
