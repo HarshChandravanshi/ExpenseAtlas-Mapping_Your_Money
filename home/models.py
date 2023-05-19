@@ -34,7 +34,7 @@ class Addmoney_info(models.Model):
         db_table:'addmoney'
         
 class UserProfile(models.Model):
-    user = models.OneToOneField(User,on_delete=models.CASCADE)
+    user = models.OneToOneField(User,on_delete=models.CASCADE) 
     profession = models.CharField(max_length = 10, choices=PROFESSION_CHOICES)
     Savings = models.IntegerField( null=True, blank=True)
     income = models.BigIntegerField(null=True, blank=True)
