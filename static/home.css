@@ -73,7 +73,7 @@ body {
 .b1{
 border-style: none;
 	border: none;
-	background-color: white;
+	background-color: white; 
 	position: relative;
 	left:80%;
 }
